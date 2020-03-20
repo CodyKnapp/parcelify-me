@@ -1,6 +1,6 @@
-# empty-project
+# Parcel Testing
 
-Empty project.
+This is a simple project that will be used to see about using Parcel with React and Redux.
 
 ## Building and running on localhost
 
