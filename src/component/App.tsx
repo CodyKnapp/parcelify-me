@@ -8,5 +8,3 @@ export interface AppProperties {
 export const App = ({name}: AppProperties) => (
     <div>Hello there {name}!</div>
 );
-
-export default App;

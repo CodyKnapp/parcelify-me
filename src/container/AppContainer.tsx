@@ -1,8 +1,8 @@
 import {connect, MapStateToProps} from "react-redux";
-import App, {AppProperties} from "../component/App";
+import {App, AppProperties} from "../component/App";
 import {AppState} from "../redux/appState";
 
-const mapStateToProps: MapStateToProps<AppState, {}, AppProperties> = state => ({
+const mapStateToProps: MapStateToProps<AppProperties, {}, AppState> = (state: AppState) => ({
     name: state.name
 });
 
